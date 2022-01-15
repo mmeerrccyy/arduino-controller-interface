@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: arduino_web
+    build: ./
+    stdin_open: true
+    tty: true
+    command: bash -c "yarn start"
+    volumes:
+      - ./:/arduino_web/
+      - node-modules:/arduino_web/node_modules
+    ports:
+      - "3000:3000"
+volumes:
+  node-modules:
