@@ -16,7 +16,7 @@ React application will run on ```localhost:3000``` or ```0.0.0.0:3000```
 
 ## Installation
 
-CLone repository
+Clone repository
 
 ``` bash
 git clone https://github.com/mmeerrccyy/arduino-controller-interface.git
