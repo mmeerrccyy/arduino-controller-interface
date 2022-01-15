@@ -10,29 +10,20 @@
 
 </details>
 
----
-
 ## Running
-
----
 
 React application will run on ```localhost:3000``` or ```0.0.0.0:3000```
 
----
-
 ## Installation
-
----
 
 CLone repository
 
 ``` bash
 git clone https://github.com/mmeerrccyy/arduino-controller-interface.git
 
-cd arduino-controller-inteface
+cd arduino-controller-interface/
 ```
 
----
 
 <details><summary>Without Docker</summary>
 
